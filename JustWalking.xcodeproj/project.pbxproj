@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34625DBB24C33D7900CE39AF /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34625DBA24C33D7900CE39AF /* Step.swift */; };
+		34D5573324BD210E00905089 /* JustWalkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572024BD210C00905089 /* JustWalkingApp.swift */; };
+		34D5573424BD210E00905089 /* JustWalkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572024BD210C00905089 /* JustWalkingApp.swift */; };
+		34D5573524BD210E00905089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572124BD210C00905089 /* ContentView.swift */; };
+		34D5573624BD210E00905089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572124BD210C00905089 /* ContentView.swift */; };
+		34D5573724BD210E00905089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D5572224BD210E00905089 /* Assets.xcassets */; };
+		34D5573824BD210E00905089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D5572224BD210E00905089 /* Assets.xcassets */; };
+		34D5574224BD21F100905089 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5574124BD21F000905089 /* HealthStore.swift */; };
+		34D5574324BD21F100905089 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5574124BD21F000905089 /* HealthStore.swift */; };
+		34D5574724BD262500905089 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D5574624BD262500905089 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34625DBA24C33D7900CE39AF /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		34D5572024BD210C00905089 /* JustWalkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalkingApp.swift; sourceTree = "<group>"; };
+		34D5572124BD210C00905089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34D5572224BD210E00905089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34D5572724BD210E00905089 /* JustWalking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustWalking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D5572A24BD210E00905089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D5572F24BD210E00905089 /* JustWalking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustWalking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D5573124BD210E00905089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D5573224BD210E00905089 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		34D5574124BD21F000905089 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		34D5574424BD262500905089 /* JustWalking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JustWalking.entitlements; sourceTree = "<group>"; };
+		34D5574624BD262500905089 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D5572424BD210E00905089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D5574724BD262500905089 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D5572C24BD210E00905089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34625DB924C33D6C00CE39AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34625DBA24C33D7900CE39AF /* Step.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34D5571A24BD210B00905089 = {
+			isa = PBXGroup;
+			children = (
+				34D5574424BD262500905089 /* JustWalking.entitlements */,
+				34D5571F24BD210C00905089 /* Shared */,
+				34D5572924BD210E00905089 /* iOS */,
+				34D5573024BD210E00905089 /* macOS */,
+				34D5572824BD210E00905089 /* Products */,
+				34D5574524BD262500905089 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34D5571F24BD210C00905089 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				34625DB924C33D6C00CE39AF /* Models */,
+				34D5572024BD210C00905089 /* JustWalkingApp.swift */,
+				34D5572124BD210C00905089 /* ContentView.swift */,
+				34D5572224BD210E00905089 /* Assets.xcassets */,
+				34D5574124BD21F000905089 /* HealthStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		34D5572824BD210E00905089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D5572724BD210E00905089 /* JustWalking.app */,
+				34D5572F24BD210E00905089 /* JustWalking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D5572924BD210E00905089 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				34D5572A24BD210E00905089 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		34D5573024BD210E00905089 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				34D5573124BD210E00905089 /* Info.plist */,
+				34D5573224BD210E00905089 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		34D5574524BD262500905089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D5574624BD262500905089 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D5572624BD210E00905089 /* JustWalking (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D5573B24BD210E00905089 /* Build configuration list for PBXNativeTarget "JustWalking (iOS)" */;
+			buildPhases = (
+				34D5572324BD210E00905089 /* Sources */,
+				34D5572424BD210E00905089 /* Frameworks */,
+				34D5572524BD210E00905089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JustWalking (iOS)";
+			productName = "JustWalking (iOS)";
+			productReference = 34D5572724BD210E00905089 /* JustWalking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D5572E24BD210E00905089 /* JustWalking (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D5573E24BD210E00905089 /* Build configuration list for PBXNativeTarget "JustWalking (macOS)" */;
+			buildPhases = (
+				34D5572B24BD210E00905089 /* Sources */,
+				34D5572C24BD210E00905089 /* Frameworks */,
+				34D5572D24BD210E00905089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JustWalking (macOS)";
+			productName = "JustWalking (macOS)";
+			productReference = 34D5572F24BD210E00905089 /* JustWalking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D5571B24BD210B00905089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					34D5572624BD210E00905089 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					34D5572E24BD210E00905089 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 34D5571E24BD210B00905089 /* Build configuration list for PBXProject "JustWalking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D5571A24BD210B00905089;
+			productRefGroup = 34D5572824BD210E00905089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D5572624BD210E00905089 /* JustWalking (iOS) */,
+				34D5572E24BD210E00905089 /* JustWalking (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D5572524BD210E00905089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D5573724BD210E00905089 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D5572D24BD210E00905089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D5573824BD210E00905089 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D5572324BD210E00905089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D5573524BD210E00905089 /* ContentView.swift in Sources */,
+				34625DBB24C33D7900CE39AF /* Step.swift in Sources */,
+				34D5574224BD21F100905089 /* HealthStore.swift in Sources */,
+				34D5573324BD210E00905089 /* JustWalkingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D5572B24BD210E00905089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D5573624BD210E00905089 /* ContentView.swift in Sources */,
+				34D5574324BD21F100905089 /* HealthStore.swift in Sources */,
+				34D5573424BD210E00905089 /* JustWalkingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34D5573924BD210E00905089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34D5573A24BD210E00905089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		34D5573C24BD210E00905089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustWalking.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.JustWalking;
+				PRODUCT_NAME = JustWalking;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34D5573D24BD210E00905089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustWalking.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.JustWalking;
+				PRODUCT_NAME = JustWalking;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D5573F24BD210E00905089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.JustWalking;
+				PRODUCT_NAME = JustWalking;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34D5574024BD210E00905089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.JustWalking;
+				PRODUCT_NAME = JustWalking;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D5571E24BD210B00905089 /* Build configuration list for PBXProject "JustWalking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D5573924BD210E00905089 /* Debug */,
+				34D5573A24BD210E00905089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D5573B24BD210E00905089 /* Build configuration list for PBXNativeTarget "JustWalking (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D5573C24BD210E00905089 /* Debug */,
+				34D5573D24BD210E00905089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D5573E24BD210E00905089 /* Build configuration list for PBXNativeTarget "JustWalking (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D5573F24BD210E00905089 /* Debug */,
+				34D5574024BD210E00905089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D5571B24BD210B00905089 /* Project object */;
+}
