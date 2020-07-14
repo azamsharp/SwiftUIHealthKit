@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34625DBB24C33D7900CE39AF /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34625DBA24C33D7900CE39AF /* Step.swift */; };
+		346D01F624C4B371004E834E /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D01F524C4B371004E834E /* GraphView.swift */; };
 		34D5573324BD210E00905089 /* JustWalkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572024BD210C00905089 /* JustWalkingApp.swift */; };
 		34D5573424BD210E00905089 /* JustWalkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572024BD210C00905089 /* JustWalkingApp.swift */; };
 		34D5573524BD210E00905089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5572124BD210C00905089 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		34625DBA24C33D7900CE39AF /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		346D01F524C4B371004E834E /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		34D5572024BD210C00905089 /* JustWalkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalkingApp.swift; sourceTree = "<group>"; };
 		34D5572124BD210C00905089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34D5572224BD210E00905089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		346D01F424C4B35D004E834E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				346D01F524C4B371004E834E /* GraphView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		34D5571A24BD210B00905089 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		34D5571F24BD210C00905089 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				346D01F424C4B35D004E834E /* Views */,
 				34625DB924C33D6C00CE39AF /* Models */,
 				34D5572024BD210C00905089 /* JustWalkingApp.swift */,
 				34D5572124BD210C00905089 /* ContentView.swift */,
@@ -216,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346D01F624C4B371004E834E /* GraphView.swift in Sources */,
 				34D5573524BD210E00905089 /* ContentView.swift in Sources */,
 				34625DBB24C33D7900CE39AF /* Step.swift in Sources */,
 				34D5574224BD21F100905089 /* HealthStore.swift in Sources */,

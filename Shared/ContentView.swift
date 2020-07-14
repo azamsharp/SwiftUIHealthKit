@@ -36,13 +36,8 @@ struct ContentView: View {
         
         NavigationView {
         
-        List(steps, id: \.id) { step in
-            VStack(alignment: .leading) {
-                Text("\(step.count)")
-                Text(step.date, style: .date)
-                    .opacity(0.5)
-            }
-        }
+        GraphView(steps: steps)
+            
         .navigationTitle("Just Walking")
         }
        
